@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        body {
+            background: red;
+            padding: 120px 0;
+        }
+
+        .container {
+            display: flex;
+            width: 700px;
+            margin: 0 auto;
+            height: 500px;
+            text-align: center;
+
+
+
+        }
+
+        .container .left {
+            width: 50%;
+            text-align: center;
+            padding: 90px 50px;
+            background: aquamarine;
+        }
+
+        .container .right {
+            width: 50%;
+            text-align: center;
+            padding: 90px 50px;
+            background: aqua;
+        }
+
+        .left h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+
+        }
+
+        .left .form-input {
+            background: rgb(235, 235, 235);
+            width: 100%;
+            padding: 15px 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid burlywood;
+        }
+
+        .left input[type="submit"] {
+            padding: 10px 15px;
+            border-radius: 15px;
+            border: 1px solid plum;
+            margin-bottom: 10px;
+            transition: 0.9s ease;
+            background: #4A3AFF;
+        }
+
+        .left input[type="submit"]:hover {
+            color: #4A3AFF;
+            background: transparent;
+            border: .5px solid #4A3AFF;
+        }
+
+        .left input[type="time"] {
+            margin-top: 20px;
+            font-size: 20px;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+
+        .right h1 {
+            font-size: 50px;
+        }
+
+        .right input[type="submit"] {
+            padding: 15px 45px;
+            border-radius: 15px;
+            border: 1px solid plum;
+            margin-bottom: 10px;
+            transition: 0.9s ease;
+            background: #4A3AFF;
+        }
+
+        .right input[type="submit"]:hover {
+            color: #4A3AFF;
+            background: transparent;
+            border: .5px solid #4A3AFF;
+        }
+
+        .right input[type="number"] {
+            font-size: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <form>
+
+                <h1>Sign In</h1>
+                <input class="form-input" type="email" placeholder="Account"><br>
+                <input class="form-input" type="Password" placeholder="Passwords"><br>
+                <input type="submit" value="Đăng Nhập"><br>
+                <a href="#">Do you forget Somethings?</a><br>
+                <input type="time"><br>
+
+
+            </form>
+
+        </div>
+        <div class="right">
+            <h1>HelloFriend!</h1><br>
+            <p>Enter your personal details and start journey with us</p><br>
+            <input type="submit" value="Đăng kí"><br>
+            <input type="number">
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
